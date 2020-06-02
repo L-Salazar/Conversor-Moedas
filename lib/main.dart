@@ -5,7 +5,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:async';
 
-const request = 'https://api.hgbrasil.com/finance?format=json&key=6cc4b056';
+const request = 'https://api.hgbrasil.com/'; //Necessario gerar uma key para usar na aplicacao e inseri-la na variável 'request'
 
 void main() {
   runApp(MaterialApp(
